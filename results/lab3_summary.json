@@ -1,0 +1,59 @@
+{
+  "variant": 1,
+  "student": "Якимов Максим Андреевич, Б24-517, № 31",
+  "n_candidates": 6,
+  "n_clients": 8,
+  "total_capacity": 600.0,
+  "total_demand": 410.0,
+  "milp_cost": 4959.85,
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "opened": [
+    "Кандидат C1",
+    "Кандидат C2",
+    "Кандидат C3",
+    "Кандидат C4"
+  ],
+  "max_demand_violation": 0.0,
+  "max_capacity_violation": 0.0,
+  "max_binary_violation": 0.0,
+  "formulations": {
+    "weak_lp": 4796.745454545454,
+    "strong_lp": 4854.124736842105,
+    "milp": 4959.85,
+    "weak_gap": 3.288497544372239,
+    "strong_gap": 2.1316221893382847
+  },
+  "stress_unmet": 53.0,
+  "greedy_cost": 5117.6,
+  "greedy_gap_percent": 3.180539734064538,
+  "scaling": [
+    {
+      "candidates": 4,
+      "clients": 10,
+      "lp_obj": 4103.547520484639,
+      "milp_obj": 4113.526081472124,
+      "lp_time": 0.01178030006121844,
+      "milp_time": 0.03897829994093627,
+      "gap": 0.24257925657576443
+    },
+    {
+      "candidates": 6,
+      "clients": 20,
+      "lp_obj": 6811.951055535193,
+      "milp_obj": 7029.596453114104,
+      "lp_time": 0.010234599933028221,
+      "milp_time": 0.03599070000927895,
+      "gap": 3.0961293301907125
+    },
+    {
+      "candidates": 8,
+      "clients": 40,
+      "lp_obj": 10303.070919067943,
+      "milp_obj": 10430.182429249,
+      "lp_time": 0.02403139998205006,
+      "milp_time": 0.33724549994803965,
+      "gap": 1.2186892323628298
+    }
+  ],
+  "seed": 10131
+}

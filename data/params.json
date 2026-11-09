@@ -1,0 +1,15 @@
+{
+  "seed": 10131,
+  "n_candidates": 6,
+  "n_clients": 8,
+  "total_capacity": 600.0,
+  "total_demand": 410.0,
+  "units": {
+    "flow": "ед. груза",
+    "fixed": "тыс. руб.",
+    "transport": "тыс. руб. на ед.",
+    "capacity": "ед.",
+    "demand": "ед."
+  },
+  "note": "Синтетический кейс facility location; seed фиксирован."
+}

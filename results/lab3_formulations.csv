@@ -1,0 +1,3 @@
+formulation,lp_objective,milp_objective,gap_percent
+weak,4796.745,4959.85,3.288
+strong,4854.125,4959.85,2.132

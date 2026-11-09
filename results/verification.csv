@@ -1,0 +1,23 @@
+check,entity,value,limit,violation,status
+demand,Клиент K1,50.0,50.0,0.0,OK
+demand,Клиент K2,45.0,45.0,0.0,OK
+demand,Клиент K3,60.0,60.0,0.0,OK
+demand,Клиент K4,55.0,55.0,0.0,OK
+demand,Клиент K5,40.0,40.0,0.0,OK
+demand,Клиент K6,65.0,65.0,0.0,OK
+demand,Клиент K7,50.0,50.0,0.0,OK
+demand,Клиент K8,45.0,45.0,0.0,OK
+capacity,Кандидат C1,120.0,120.0,0.0,OK
+binary,Кандидат C1,1.0,1.0,0.0,OK
+capacity,Кандидат C2,100.0,100.0,0.0,OK
+binary,Кандидат C2,1.0,1.0,0.0,OK
+capacity,Кандидат C3,90.0,90.0,0.0,OK
+binary,Кандидат C3,1.0,1.0,0.0,OK
+capacity,Кандидат C4,100.0,110.0,0.0,OK
+binary,Кандидат C4,1.0,1.0,0.0,OK
+capacity,Кандидат C5,0.0,0.0,0.0,OK
+binary,Кандидат C5,0.0,1.0,0.0,OK
+capacity,Кандидат C6,0.0,0.0,0.0,OK
+binary,Кандидат C6,0.0,1.0,0.0,OK
+objective,recomputed_vs_solver,4959.85,4959.85,0.0,OK
+overall,max_violation,0.0,1e-06,0.0,OK
